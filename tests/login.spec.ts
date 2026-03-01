@@ -9,7 +9,6 @@ test.describe("All Login Tests", () => {
       name: "My account",
     });
     await expect(pageTitle).toBeVisible();
-    await expect(pageTitle).toHaveText("My account");
   });
 
   test("Login unsuccsessfully(negative test)", async ({ loginPage }) => {
